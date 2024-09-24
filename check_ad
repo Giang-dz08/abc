@@ -134,7 +134,7 @@ while wait() do
             getgenv().data.wave = "Waiting Join Map"
         end
         local aa = request({
-            Url = "https://beautyview.online/api/member_data/create ",
+            Url = "https://beautyview.online/api/member_data/create",
             Method = "POST",
             Headers = {
                 ["Content-Type"] = "application/json"
