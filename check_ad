@@ -23,7 +23,7 @@ getgenv().data = {
     Secret = {},
     equipped = {},
     wave = 0,
-    data_key = key
+    keyscript = key
 }
 function time()
     local scripttime = game.Workspace.DistributedGameTime
